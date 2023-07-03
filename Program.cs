@@ -4,21 +4,34 @@
     {
         static void Main(string[] args)
         {
-            byte var1 = 1;//Unsigned integer
-            sbyte var2 = 2;//Signed integer	
-            int var3 = 3;//Signed integer
-            uint var4 = 4;//Unsigned integer
-            short var5 = 5;//Signed integer
-            ushort var6 = 6;//Unsigned integer
-            long var7 = 7;//Signed integer
-            ulong var8 = 8;//Unsigned integer
-            float var9 = 32;//Single-precision floating point type
-            double var10 = 12;//Double-precision floating point type
-            char var11 = 'A';
-            bool var12 = true;
-            string var13 = "Hello, World!";
-            decimal var14 =0.3m;
-            Console.WriteLine();
+            byte myByte = 25;//Unsigned integer
+            sbyte mySbyte = -2;//Signed integer	
+            int myInt = -263;//Signed integer
+            uint myUint = 45;//Unsigned integer
+            short myShort = 526;//Signed integer
+            ushort myUShort = 63;//Unsigned integer
+            long myLong = 7777777;//Signed integer
+            ulong myUlong = 8654899;//Unsigned integer
+            float myFloat = -3.2289f;//Single-precision floating point type
+            double myDouble = -12.123;//Double-precision floating point type
+            char myChar = 'A';//A single Unicode character
+            bool myBool = true;//Logical Boolean type
+            string myString = "Hello, World!";//A sequence of characters
+            decimal myDecimal = 0.3m;//Precise fractional or integral type that can represent decimal numbers with 29 significant digits
+            Console.WriteLine(myByte);
+            Console.WriteLine(mySbyte);
+            Console.WriteLine(myInt);
+            Console.WriteLine(myUint);
+            Console.WriteLine(myShort);
+            Console.WriteLine(myUShort);
+            Console.WriteLine(myLong);
+            Console.WriteLine(myUlong);
+            Console.WriteLine(myFloat);
+            Console.WriteLine(myDouble);
+            Console.WriteLine(myChar);
+            Console.WriteLine(myBool);
+            Console.WriteLine(myString);
+            Console.WriteLine(myDecimal);
         }
     }
 }
